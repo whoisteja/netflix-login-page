@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="netflix.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <img 
+                     src="netflix-logo.png" 
+                     alt="logo"
+                     class="navbar-logo">
+                </div>
+                <div class="navbar-items">
+                    <div class="navbar-item">
+                        <div class="dropdown-container">
+                        <i class="fas fa-globe"></i>
+                        <select
+                         name="languages"
+                         id="languagesSelect"
+                         class="language-drop">
+                         <option value="english" selected>English</option>
+                         <option value="hindi">Hindi</option>
+                         <option value="telugu">Telugu</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <button class="signin-button">Sign in</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="ram">
+                <div class="ram-bg-image-container">
+                    <img
+                     src="backgroundNetflix.jpg"
+                     alt="bg ram image"
+                     class="ram-bg-image"
+                    />
+                </div>
+                 <div class="overlay">
+
+                </div>
+                <div class="ram-card">
+                    <h1 class="ram-title">
+                        The biggest Indian hits. Ready to watch here <br> from ₹ 149.
+                    </h1>
+                    <p class="ram-subtitle">Join today.Cancel anytime.</p>
+                    <p class="ram-description">
+                        Ready to watch? Enter your email to create membership. 
+                    </p>
+                    <div class="email-form-container">
+                        <div class="form-container">
+                            <input type="email" class="email-input" placeholder="Email Address">
+                            <label class="email-label"></label>
+                        </div>
+                        <button class="primary-button">
+                            Get started <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="features-container">
+                <!--feature 1-->
+                <div class="feature">
+                    <div class="feature-details">
+                         <h3 class="feature-title">
+                            Enjoy on your TV
+                        </h3>
+                        <h5 class="feature-subtitle">
+                            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                        </h5>  
+                    </div>                  
+                        <div class="feature-image-container">
+                            <img src="tv.png" alt="feature image" class="feature-image">
+                            <div class="feature-backgroundvideo-container">
+                                <video 
+                                 autoplay=""
+                                 loops=""
+                                 muted=""
+                                 class="feature-backgroundvideo">
+                                    <source src="video-tv-netflix.m4v"
+                                    type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--feature 2-->
+                <div class="feature">
+                    <div class="feature-details">
+                         <h3 class="feature-title">
+                            Download your shows to watch offline
+                        </h3>
+                        <h5 class="feature-subtitle">
+                            Save your favourites easily and always have something to watch.
+                        </h5>
+                    </div>
+                        <div class="feature-image-container">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="feature image" class="feature-image">
+                            <div class="feature-2-poster">
+                                <div class="poster-container">
+                                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="poster" class="poster">
+                                </div>
+                                <div class="poster-details">
+                                    <h4>Stranger Things</h4>
+                                    <h6>Downloading....</h6>
+                                </div>
+                                <div class="download-gif">
+                                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="Downloading" class="gif">
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+                <!--feature 3-->
+                <div class="feature">
+                    <div class="feature-details">
+                         <h3 class="feature-title">
+                            Watch everywhere
+                        </h3>
+                        <h5 class="feature-subtitle">
+                            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                        </h5> 
+                    </div>                          
+                        <div class="feature-image-container">
+                            <img src="tv.png" alt="feature image" class="feature-image">
+                            <div class="feature-backgroundvideo-container">
+                                <video 
+                                 autoplay=""
+                                 loops=""
+                                 muted=""
+                                 class="feature-backgroundvideo">
+                                    <source src="video-tv-netflix.m4v"
+                                    type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                </div>
+                <!--feature 4-->
+                <div class="feature">
+                    <div class="feature-details">
+                         <h3 class="feature-title">
+                            Create profiles for kids
+                        </h3>
+                        <h5 class="feature-subtitle">
+                            Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+                        </h5>
+                    </div>          
+                        <div class="feature-image-container">
+                            <img src="https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" alt="feature image" class="feature-image">
+                        </div>
+                </div>
+            </section>
+        </main>
+        <script src="netflix.js"></script>
+    </body>
+</html>
